@@ -2,9 +2,9 @@
 Summary:	Eliza perl module
 Summary(pl):	Modu³ perla Eliza
 Name:		perl-Chatbot-Eliza
-Version:	0.91
-Release:	3
-Copyright:	GPL
+Version:	0.97
+Release:	1
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Chatbot/Chatbot-Eliza-%{version}.tar.gz
