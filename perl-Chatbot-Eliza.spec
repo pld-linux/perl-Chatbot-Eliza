@@ -26,7 +26,7 @@ Modu³ Chatbot::Eliza - klasyczny algorytm Eliza.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
