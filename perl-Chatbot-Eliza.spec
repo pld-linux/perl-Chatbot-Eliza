@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Chatbot
-%define	pnam	Eliza
+%define		pdir	Chatbot
+%define		pnam	Eliza
 Summary:	Chatbot::Eliza Perl module - a clone of the classic Eliza program
 Summary(pl):	Modu³ Perla Chatbot::Eliza - klon klasycznego programu Eliza
 Name:		perl-Chatbot-Eliza
