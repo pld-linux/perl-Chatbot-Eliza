@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Chatbot-Eliza module - classic Eliza algorithm.
+Chatbot::Eliza module - classic Eliza algorithm.
 
 %description -l pl
-Modu³ Chatbot-Eliza - klasyczny algorytm Eliza.
+Modu³ Chatbot::Eliza - klasyczny algorytm Eliza.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
