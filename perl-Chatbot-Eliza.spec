@@ -1,12 +1,11 @@
-%define	pdir	Chatbot
-%define	pnam	Eliza
 %include	/usr/lib/rpm/macros.perl
+%define		pdir	Chatbot
+%define		pnam	Eliza
 Summary:	Eliza perl module
 Summary(pl):	Modu³ perla Eliza
 Name:		perl-Chatbot-Eliza
 Version:	0.97
 Release:	5
-
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Chatbot-Eliza module - classic Eliza algorithm.
 Modu³ Chatbot-Eliza - klasyczny algorytm Eliza.
 
 %prep
-%setup -q -n Chatbot-Eliza-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
