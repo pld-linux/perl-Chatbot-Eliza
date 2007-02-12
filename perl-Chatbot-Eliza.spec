@@ -6,7 +6,7 @@
 %define		pdir	Chatbot
 %define		pnam	Eliza
 Summary:	Chatbot::Eliza Perl module - a clone of the classic Eliza program
-Summary(pl):	Modu³ Perla Chatbot::Eliza - klon klasycznego programu Eliza
+Summary(pl.UTF-8):   ModuÅ‚ Perla Chatbot::Eliza - klon klasycznego programu Eliza
 Name:		perl-Chatbot-Eliza
 Version:	1.04
 Release:	3
@@ -29,14 +29,14 @@ transformation algorithm to change user input into a follow-up
 question.  The program is designed to give the appearance of
 understanding.
 
-%description -l pl
-Modu³ Perla Chatbot::Eliza stanowi implementacjê klasycznego algorytmu
-Eliza. Oryginalny program Eliza zosta³ napisany przez Josepha
+%description -l pl.UTF-8
+ModuÅ‚ Perla Chatbot::Eliza stanowi implementacjÄ™ klasycznego algorytmu
+Eliza. Oryginalny program Eliza zostaÅ‚ napisany przez Josepha
 Weizenbauma i opisany w Communications of the ACM w 1966. Eliza jest
-imitacj± zabawnego psychoterapeuty. Prosi u¿ytkownika o informacje i,
-u¿ywaj±c prostego algorytmu transformacyjnego, zmienia informacje
-u¿ytkownika w nastêpne pytanie. Program zaprojektowano aby
-zaprezentowaæ rozumienie.
+imitacjÄ… zabawnego psychoterapeuty. Prosi uÅ¼ytkownika o informacje i,
+uÅ¼ywajÄ…c prostego algorytmu transformacyjnego, zmienia informacje
+uÅ¼ytkownika w nastÄ™pne pytanie. Program zaprojektowano aby
+zaprezentowaÄ‡ rozumienie.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
