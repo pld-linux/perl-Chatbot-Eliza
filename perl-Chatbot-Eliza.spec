@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Chatbot
 %define		pnam	Eliza
+%include	/usr/lib/rpm/macros.perl
 Summary:	Chatbot::Eliza Perl module - a clone of the classic Eliza program
 Summary(pl.UTF-8):	Moduł Perla Chatbot::Eliza - klon klasycznego programu Eliza
 Name:		perl-Chatbot-Eliza
@@ -15,18 +15,19 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	754199bbe591eaa11301aee108586fcd
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/Chatbot-Eliza/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Chatbot::Eliza Perl module implements classic Eliza algorithm.  The
+Chatbot::Eliza Perl module implements classic Eliza algorithm. The
 original Eliza program was written by Joseph Weizenbaum and described
-in the Communications of the ACM in 1966.  Eliza is a mock Rogerian
-psychotherapist.  It prompts for user input, and uses a simple
+in the Communications of the ACM in 1966. Eliza is a mock Rogerian
+psychotherapist. It prompts for user input, and uses a simple
 transformation algorithm to change user input into a follow-up
-question.  The program is designed to give the appearance of
+question. The program is designed to give the appearance of
 understanding.
 
 %description -l pl.UTF-8
