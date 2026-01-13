@@ -8,7 +8,7 @@ Summary:	Chatbot::Eliza Perl module - a clone of the classic Eliza program
 Summary(pl.UTF-8):	Moduł Perla Chatbot::Eliza - klon klasycznego programu Eliza
 Name:		perl-Chatbot-Eliza
 Version:	1.04
-Release:	4
+Release:	5
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
