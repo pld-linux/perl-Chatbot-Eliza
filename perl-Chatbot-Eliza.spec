@@ -7,13 +7,13 @@
 Summary:	Chatbot::Eliza Perl module - a clone of the classic Eliza program
 Summary(pl.UTF-8):	Moduł Perla Chatbot::Eliza - klon klasycznego programu Eliza
 Name:		perl-Chatbot-Eliza
-Version:	1.04
-Release:	5
+Version:	1.08
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	754199bbe591eaa11301aee108586fcd
+Source0:	https://www.cpan.org/authors/id/G/GR/GRANTG/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	163fb58b76a945368f49092147ffde83
 URL:		http://search.cpan.org/dist/Chatbot-Eliza/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -59,7 +59,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README *txt twobots
+%doc Changes README examples
 %dir %{perl_vendorlib}/Chatbot
 %{perl_vendorlib}/Chatbot/Eliza.pm
 %{_mandir}/man3/*
